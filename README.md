@@ -44,11 +44,11 @@ Apos isso basta executar o projeto em algum celular ou emulador android
 
 O projeto segue a arquitetura MVI usando Jetpack Compose
 
-Nossa divisão segue a seguinte ideia:
+A divisão segue a seguinte ideia:
 
 ## Presentation
 
-Aqui estara nossas ViewModels e suas intençoes e estados
+Aqui estara as ViewModels e suas intençoes e estados
 
 Teremos sempre uma sealed interface para representar quais eventos podem ser efetuados,
 no exemplo atual é a classe `ViewEvent` e tambem uma classe que represnta o nosso estado,
@@ -56,18 +56,18 @@ a `ViewState`
 
 ## Domain
 
-Aqui teremos as nossas regras, como este projeto é super simples não temos uma quebra entra a camada
-de dados e dominio
+Aqui teremos as nossas regras, como este projeto é super simples não tem uma quebra entra a camada
+de dados e dominio.
 
 ## Components
 
-Aqui temos os nossos componentes de UI para o compose
+Aqui temos os componentes de UI para o compose
 
 ---
 
 # Sugestões
 
-Para qualquer sugestoes ou divda abra uma issue por favor : )
+Para qualquer sugestoes ou dúvida:
 
 https://www.linkedin.com/in/caroline-branbila/
 
