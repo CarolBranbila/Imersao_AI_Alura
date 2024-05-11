@@ -7,7 +7,9 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Send
 import androidx.compose.material3.Button
 import androidx.compose.material3.Icon
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.TextField
+import androidx.compose.material3.TextFieldDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -27,6 +29,10 @@ fun ChatInput(
         var message by remember { mutableStateOf("") }
         Row(modifier) {
             TextField(
+                colors = TextFieldDefaults.colors(
+                    unfocusedContainerColor = MaterialTheme.colorScheme.secondary.copy(alpha = 0.2f),
+                    focusedContainerColor = MaterialTheme.colorScheme.secondary.copy(alpha = 0.2f)
+                ),
                 modifier = Modifier
                     .weight(1f)
                     .fillMaxWidth()

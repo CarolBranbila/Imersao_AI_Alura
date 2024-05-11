@@ -1,17 +1,17 @@
 package br.com.estudo.chatbotapplication.components
 
 import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import br.com.estudo.chatbotapplication.theme.ChatbotApplicationTheme
+import com.halilibo.richtext.commonmark.Markdown
+import com.halilibo.richtext.ui.BasicRichText
 
 @Composable
 fun ChatBubble(
@@ -25,11 +25,11 @@ fun ChatBubble(
             .background(MaterialTheme.colorScheme.primary, shape = RoundedCornerShape(8.dp)),
         contentColor = MaterialTheme.colorScheme.surface
     ) {
-        Text(
-            text = message,
-            color = MaterialTheme.colorScheme.onBackground,
+        BasicRichText(
             modifier = Modifier.padding(16.dp)
-        )
+        ) {
+            Markdown(content = message)
+        }
     }
 }
 

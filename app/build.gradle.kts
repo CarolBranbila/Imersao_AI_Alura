@@ -66,7 +66,7 @@ android {
 
 dependencies {
 
-    // https://mvnrepository.com/artifact/com.google.ai.client.generativeai/generativeai
+    implementation("com.halilibo.compose-richtext:richtext-commonmark:1.0.0-alpha01")
     implementation(libs.generativeai)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)

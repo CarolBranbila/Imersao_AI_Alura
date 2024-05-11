@@ -50,13 +50,13 @@ Nossa divisão segue a seguinte ideia:
 
 Aqui estara nossas ViewModels e suas intençoes e estados
 
-Teremos sempre uma sealed interface para representar quais eventos podem ser efetuados, 
-no exemplo atual é a classe `ViewEvent` e tambem uma classe que represnta o nosso estado, 
+Teremos sempre uma sealed interface para representar quais eventos podem ser efetuados,
+no exemplo atual é a classe `ViewEvent` e tambem uma classe que represnta o nosso estado,
 a `ViewState`
 
 ## Domain
 
-Aqui teremos as nossas regras, como este projeto é super simples não temos uma quebra entra a camada 
+Aqui teremos as nossas regras, como este projeto é super simples não temos uma quebra entra a camada
 de dados e dominio
 
 ## Components
@@ -69,5 +69,5 @@ Aqui temos os nossos componentes de UI para o compose
 
 Para qualquer sugestoes ou divda abra uma issue por favor : )
 
-
+https://www.linkedin.com/in/caroline-branbila/
 

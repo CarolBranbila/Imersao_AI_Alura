@@ -1,12 +1,17 @@
 package br.com.estudo.chatbotapplication.ui
 
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.dp
+import br.com.estudo.chatbotapplication.R
 import br.com.estudo.chatbotapplication.components.ChatBubble
 import br.com.estudo.chatbotapplication.components.ChatInput
 import br.com.estudo.chatbotapplication.presentation.ViewEvent
@@ -37,6 +42,9 @@ fun MainScreenContent(
             Spacer(modifier = Modifier.weight(1f))
 
             ChatInput(
+                modifier = Modifier
+                    .padding(horizontal = 24.dp)
+                    .padding(vertical = 16.dp),
                 onConfirmClick = {
                     onViewEvent(ViewEvent.Message(it))
                 },
