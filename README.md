@@ -2,7 +2,7 @@
 
 # NutrIAliado 🥑
 
-Se você é um entusiasta da saúde, preocupado com alergias alimentares ou simplesmente deseja manter uma dieta equilibrada, nosso aplicativo nutricional alimentado pela inovadora tecnologia Google AI Studio e Google 1.0 Pro é a ferramenta perfeita para você!
+Se você é um entusiasta da saúde, preocupado com alergias alimentares ou simplesmente deseja manter uma dieta equilibrada, o aplicativo nutricional alimentado pela inovadora tecnologia Google AI Studio e Google 1.0 Pro é a ferramenta perfeita para você!
 
 Basta digitar a quantidade e o alimento desejado, instantaneamente receberá uma análise nutricional abrangente, incluindo:
 * Quantidade de calorias
